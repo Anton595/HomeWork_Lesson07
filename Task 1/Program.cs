@@ -11,7 +11,6 @@ void ListNumbers(int M, int N)
     if (M == N)
     {
         if (N >= 0) Console.Write($"{N}, ");
-        return;
     }
     if (M < N)
     {
